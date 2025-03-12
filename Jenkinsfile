@@ -19,7 +19,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 bat 'java -jar target/git-maven-simple-0.0.1-SNAPSHOT.jar'
-            }
-        }
-    }
- 
+		}
+	}
+}
